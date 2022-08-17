@@ -1,0 +1,23 @@
+{
+  "name": "app-1",
+  "version": "1.0.0",
+  "description": "server app to test amqp messages ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:development": "nodemon --exec ts-node -- ./src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.2",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.8.2",
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.7.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
